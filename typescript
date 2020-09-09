@@ -1,0 +1,33 @@
+Script started on Wed Sep  9 11:24:50 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[0;33mbillahmuntasir[0m@[0;32mBillahs-MacBook-Pro[0m:[0;34m~/tony_stark/Spring/micor-services/car-supply-chain/inventory-failover[0m$ git init
+Initialized empty Git repository in /Users/billahmuntasir/tony_stark/Spring/micor-services/car-supply-chain/inventory-failover/.git/
+[0;33mbillahmuntasir[0m@[0;32mBillahs-MacBook-Pro[0m:[0;34m~/tony_stark/Spring/micor-services/car-supply-chain/inventory-failover[0m$ git add *.8
+fatal: pathspec '*.8' did not match any files
+[0;33mbillahmuntasir[0m@[0;32mBillahs-MacBook-Pro[0m:[0;34m~/tony_stark/Spring/micor-services/car-supply-chain/inventory-failover[0m$ git add *.8[K*
+The following paths are ignored by one of your .gitignore files:
+inventory-failover.iml
+Use -f if you really want to add them.
+[0;33mbillahmuntasir[0m@[0;32mBillahs-MacBook-Pro[0m:[0;34m~/tony_stark/Spring/micor-services/car-supply-chain/inventory-failover[0m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   HELP.md[m
+	[32mnew file:   mvnw.cmd[m
+	[32mnew file:   pom.xml[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31m.mvn/[m
+	[31mmvnw[m
+	[31msrc/[m
+	[31mtypescript[m
+
+[0;33mbillahmuntasir[0m@[0;32mBillahs-MacBook-Pro[0m:[0;34m~/tony_stark/Spring/micor-services/car-supply-chain/inventory-failover[0m$ git ad
